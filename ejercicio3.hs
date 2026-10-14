@@ -10,6 +10,6 @@ main :: IO()
 main = do
     putStrLn "Ingrese una palabra"
     input <- getLine
-    let palabra = input 
+    let palabra = input    -- cuando solo es analizar una palabra simple
 
     putStrLn("El estado de la palabra es: " ++ show(analizarStock palabra))
